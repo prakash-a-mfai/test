@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// add,subtract program
+function add(n1,n2){
+    console.log(n1+n2);
+}
+function sub(n1,n2){
+    console.log(n1-n2);
+}
+function multiply(n1,n2){
+    console.log(n1*n2);
+}
+function div(n1,n2){
+    console.log(n1/n2);
+}
+add(6,5);
+sub(6,5);
+multiply(6,5);
+div(6,5);
+
+// program 2
+var arr=[1,2,3,4,5,6,7,8];
+var even=[]
+for(let no of arr){
+    if(no%2==0)
+    even+=no;
+}
+console.log(even);
+
+// program3
+
+var input=[1,2,3,4,5,6,7,8,9,10,11,12];
+var mul=[]
+for(let no of input){
+    if(no%2==0)
+    mul+=no;
+}
+console.log(mul);
+
+
+// program 4
+var str="thomas";
+console.log(str.replace(str.charAt(0),str.charAt(0).toUpperCase()));
+
+    </script>
+</body>
+</html>
